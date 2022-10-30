@@ -6,13 +6,13 @@ There is test.json in this repository.
 
 # You can use following commands to see how it works.
 
-To see all distinct array keys:
+## To see all distinct array keys:
 php bin/console json-op --keys test.json 
 
-Schematize json arrays with null key=>value pairs:
+## Schematize json arrays with null key=>value pairs:
 php bin/console json-op --schematize test.json 
 
-To filter given range:
+## To filter given range:
 php bin/console app:json-op  test.json age 28 30 
 
 # To test if cli app is working 
